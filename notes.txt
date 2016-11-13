@@ -1,0 +1,66 @@
+
+select lines - shift-V + up/down
+select lines - shift-V + up/down
+comment selected lines: ,ci OR ,/
+
+suck next line up: J
+
+insert and edit line: o (under), O (above)
+
+search/replace: :%s/find/replace/g <global, add c to ask for confirmation>
+
+. - repeat last command
+
+select every of current word: *
+
+search/replace: :%s/find/replace/g <global, add c to ask for confirmation>
+
+,g OR :Gblame - open git blame in vert split
+  o - open commit in split
+
+NerdTree
+  i - open file in new split
+  s - open file in new vsplit
+  m - menu
+    ma - new file
+    md - delete, etc
+
+move line or selection
+  :m (1, -1) - move to N line
+  :m+-(1) - move by N lines
+  :47m. - move line 47 to here
+  :47,60m. - move lines 47-60 to here
+  :67m40 - move line 67 to line 40
+
+change inner word: ciw
+
+indent line: >> (one col), == (fix indent)
+  - prefix w/5 (5>>, 5==) to operate on next N lines
+
+C - delete rest of line and enter insert
+cc - delete line and insert new
+I, A - insert at beginning, end of line
+m,mm - cut with motion, whole line
+d,dd - delete to black hole register
+p,P - paste
+
+csAB - change surround from A to B
+dsA - delete surrounding A
+ysiwA - surround current word with A
+<visual mode> S( - surround visual selection with (
+
+Ctrl W + L - Move the current window to the "far right"
+Ctrl W + H - Move the current window to the "far left"
+Ctrl W + J - Move the current window to the "very bottom"
+Ctrl W + K - Move the current window to the "very top"
+Ctrl W + R - To rotate windows up/left.
+Ctrl W + r - To rotate windows down/right.
+
+[b, ]b - cycle thru buffers
+:b # - previous buffer
+:b filename - open <filename> buffer in current split
+  - use tab complete here
+:vsp | :b <name/num> - open buffer in new split
+:ls - show buffers
+:bd<num> - wipeout buffer
+
