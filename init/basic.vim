@@ -12,10 +12,6 @@ vmap <s-tab> <gv
 " In command-line mode, <C-A> should go to the front of the line, as in bash.
 cmap <C-A> <C-B>
 
-set guioptions-=T               " Remove GUI toolbar
-set guioptions-=e               " Use text tab bar, not GUI
-set guioptions-=rL              " Remove scrollbars
-set guicursor=a:blinkon0        " Turn off the blinking cursor
 
 set notimeout                   " No command timeout
 set showcmd                     " Show typed command prefixes while waiting for operator
@@ -34,14 +30,11 @@ set backspace=indent,eol,start " Let backspace work over anything.
 set list                        " Show whitespace
 set listchars=trail:·
 set showmatch                   " Show matching brackets
-set hidden                      " Allow hidden, unsaved buffers
+" set hidden                      " Allow hidden, unsaved buffers
 set splitright                  " Add new windows towards the right
 set splitbelow                  " ... and bottom
 set scrolloff=3                 " Scroll when the cursor is 3 lines from edge
-if has("gui_running")
-  set cursorline                " Highlight current line
-end
-
+set ruler
 set laststatus=2                " Always show statusline
 
 set incsearch                   " Incremental search
@@ -56,8 +49,6 @@ set backupdir=~/.vim-tmp,~/tmp,/var/tmp,/tmp
 
 set sessionoptions-=options
 
-set background=dark
-colorscheme monokai
 
 set hls                         " search with highlights by default
 " Press Space to turn off highlighting and clear any message already

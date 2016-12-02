@@ -1,4 +1,9 @@
 
+" Folding
+" zf = fold selected
+" za - toggle this fold
+" zR - unfold all
+
 select lines - shift-V + up/down
 select lines - shift-V + up/down
 comment selected lines: ,ci OR ,/
