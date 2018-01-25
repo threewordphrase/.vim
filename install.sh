@@ -6,11 +6,9 @@ apt-get update
 
 apt-get install python-dev python-pip python3-dev python3-pip
 
-apt-get install neovim git silversearcher-ag exuberant-ctags
+apt-get install neovim git silversearcher-ag exuberant-ctags curl
 
 git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf && ~/.fzf/install
-
-git clone https://github.com/crypticsymbols/.vim
 
 mkdir ~/.config
 
