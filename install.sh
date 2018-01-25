@@ -1,3 +1,5 @@
+cd ~/
+
 apt-get install software-properties-common
 add-apt-repository ppa:neovim-ppa/stable
 apt-get update
@@ -12,7 +14,9 @@ git clone https://github.com/crypticsymbols/.vim
 
 mkdir ~/.config
 
+ln -s ~/.vim/vimrc ~/.vimrc
 ln -s ~/.vim ~/.config/nvim
+ln -s ~/.vimrc ~/.config/nvim/init.vim
 
 pip3 install --user neovim
 
