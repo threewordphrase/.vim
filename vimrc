@@ -37,6 +37,10 @@ Plugin 'svermeulen/vim-easyclip'
 Plugin 'Shougo/unite.vim'
 " Ugh where the F am I
 Plugin 'fholgado/minibufexpl.vim'
+" Python deoplete
+Plugin 'zchee/deoplete-jedi'
+" JS deoplete
+Plugin 'carlitux/deoplete-ternjs'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required

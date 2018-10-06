@@ -6,6 +6,8 @@
 let g:gutentags_define_advanced_commands=1
 " let g:gutentags_ctags_tagfile='.git/tags'
 
+let g:gutentags_ctags_extra_args = ['--languages=+python']
+
 " ctags - add --fields=+l option
 
 " auto Gemset detect/include

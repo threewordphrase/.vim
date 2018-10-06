@@ -18,6 +18,12 @@ ln -s ~/.vimrc ~/.config/nvim/init.vim
 
 pip3 install --user neovim
 
+# For deoplete python completion
+pip install jedi
+
+# for deoplete js completion
+npm install -g tern
+
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
 nvim +PluginInstall +qall
