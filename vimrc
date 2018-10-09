@@ -41,6 +41,8 @@ Plugin 'fholgado/minibufexpl.vim'
 Plugin 'zchee/deoplete-jedi'
 " JS deoplete
 Plugin 'carlitux/deoplete-ternjs'
+" GitGutter
+Plugin 'airblade/vim-gitgutter.git'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
