@@ -34,7 +34,7 @@ Plugin 'tpope/vim-repeat'
 " Sane cut/delete behavior >:|
 Plugin 'svermeulen/vim-easyclip'
 " Unite! Unite! Okay!
-Plugin 'Shougo/unite.vim'
+Plugin 'Shougo/denite.nvim'
 " Ugh where the F am I
 Plugin 'fholgado/minibufexpl.vim'
 " Python deoplete
