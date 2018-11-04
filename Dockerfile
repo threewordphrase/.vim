@@ -1,8 +1,8 @@
 FROM ubuntu:18.04
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
- sudo git apt-transport-https ca-certificates \
- software-properties-common autoconf pkg-config \
+ sudo git apt-transport-https ca-certificates automake \
+ software-properties-common autoconf pkg-config build-essential \
  && rm -rf /var/lib/apt/lists/*
 
 RUN useradd -ms /bin/bash ender
