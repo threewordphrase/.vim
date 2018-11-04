@@ -1,16 +1,16 @@
 cd ~/
 
-sudo apt-get install software-properties-common
+sudo apt-get install -y software-properties-common
 sudo add-apt-repository ppa:neovim-ppa/stable
 sudo apt-get update
 
-sudo apt-get install python-dev python-pip python3-dev python3-pip
+sudo apt-get install -y python-dev python-pip python3-dev python3-pip
 
 sudo apt-get install neovim git silversearcher-ag exuberant-ctags curl
 
 git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf && ~/.fzf/install
 
-mkdir ~/.config
+mkdir -p ~/.config/nvim
 
 ln -s ~/.vim/vimrc ~/.vimrc
 ln -s ~/.vim ~/.config/nvim
@@ -22,8 +22,8 @@ pip3 install --user neovim
 pip install jedi
 
 # for deoplete js completion
-npm install -g tern
+# npm install -g tern
 
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
-nvim +PluginInstall +qall
+nvim +PluginInstall +UpdateRemotePlugins +qall
