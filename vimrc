@@ -77,7 +77,9 @@ if filereadable($HOME . "/.vimrc.local")
 endif
 
 " Load init/ directory
-runtime! init/**.vim
+for s:fpath in split(globpath('./init', '*.vim'), '\n')
+  exe 'source' s:fpath
+endfor
 
 if exists('g:nyaovim_version')
     source ~/.gvimrc

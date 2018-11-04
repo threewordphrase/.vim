@@ -8,7 +8,7 @@ sudo apt-get install -y python-dev python-pip python3-dev python3-pip
 
 sudo apt-get install -y neovim git silversearcher-ag exuberant-ctags curl
 
-git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf && ~/.fzf/install
+git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf && ~/.fzf/install --bin
 
 mkdir -p ~/.config/nvim
 
