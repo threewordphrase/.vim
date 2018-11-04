@@ -39,6 +39,7 @@ Plugin 'Shougo/denite.nvim'
 Plugin 'fholgado/minibufexpl.vim'
 " Python deoplete
 Plugin 'zchee/deoplete-jedi'
+Plugin 'davidhalter/jedi-vim'
 " JS deoplete
 Plugin 'carlitux/deoplete-ternjs'
 " GitGutter
@@ -77,7 +78,7 @@ if filereadable($HOME . "/.vimrc.local")
 endif
 
 " Load init/ directory
-for s:fpath in split(globpath('./init', '*.vim'), '\n')
+for s:fpath in split(globpath($HOME . '/.vim/init', '*.vim'), '\n')
   exe 'source' s:fpath
 endfor
 
