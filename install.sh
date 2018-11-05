@@ -26,4 +26,4 @@ pip install jedi
 
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
-nvim +PluginInstall +UpdateRemotePlugins +qall
+nvim -c :silent\! +PluginInstall +UpdateRemotePlugins +qall
