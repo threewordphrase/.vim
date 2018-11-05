@@ -7,6 +7,8 @@ map \           :NERDTreeToggle<CR>
 map \|          :NERDTreeFind<CR>
 let NERDSpaceDelims = 1
 
-autocmd vimenter * if !argc() | NERDTree | endif
+"Close when opening a file
+let g:NERDTreeQuitOnOpen = 1
+" autocmd vimenter * if !argc() | NERDTree | endif
 
 let g:NERDTreeShowHidden=1
