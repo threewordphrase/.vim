@@ -71,7 +71,6 @@ nmap <leader>sb<left>   :leftabove  vnew<CR>
 nmap <leader>sb<right>  :rightbelow vnew<CR>
 nmap <leader>sb<up>     :leftabove  new<CR>
 nmap <leader>sb<down>   :rightbelow new<CR>
-" Selection and indentation
 
 if filereadable($HOME . "/.vimrc.local")
   source ~/.vimrc.local
