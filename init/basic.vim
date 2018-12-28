@@ -9,9 +9,6 @@
 vmap <tab> >gv
 vmap <s-tab> <gv
 
-" In command-line mode, <C-A> should go to the front of the line, as in bash.
-cmap <C-A> <C-B>
-
 
 set notimeout                   " No command timeout
 set showcmd                     " Show typed command prefixes while waiting for operator
@@ -23,6 +20,7 @@ set autoindent
 set smarttab                    " Use shiftwidth to tab at line beginning
 set shiftwidth=2                " Width of autoindent
 set number                      " Line numbers
+set relativenumber              " + relative Line numbers = hybrid line numbers
 syntax on                       " Syntax, damnit
 set nowrap                      " No wrapping
 set backspace=indent,eol,start " Let backspace work over anything.
