@@ -46,6 +46,8 @@ Plugin 'carlitux/deoplete-ternjs'
 Plugin 'airblade/vim-gitgutter.git'
 " Formatting
 Plugin 'sbdchd/neoformat'
+" Surround
+Plugin 'tpope/vim-surround'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
