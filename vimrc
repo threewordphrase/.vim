@@ -10,6 +10,8 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'scrooloose/nerdtree'
 " Git integration
 Plugin 'tpope/vim-fugitive'
+" moar git
+Plugin 'tpope/vim-rhubarb'
 " FZF, fuzzy finder
 Plugin 'junegunn/fzf'
 Plugin 'junegunn/fzf.vim'
