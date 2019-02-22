@@ -42,6 +42,12 @@ Plugin 'fholgado/minibufexpl.vim'
 " Python deoplete
 Plugin 'zchee/deoplete-jedi'
 Plugin 'davidhalter/jedi-vim'
+" JS Support
+Plugin 'pangloss/vim-javascript'
+" Vue support
+Plugin 'posva/vim-vue'
+" JS intel
+Plugin 'ternjs/tern_for_vim'
 " JS deoplete
 Plugin 'carlitux/deoplete-ternjs'
 " GitGutter
@@ -50,6 +56,8 @@ Plugin 'airblade/vim-gitgutter.git'
 Plugin 'sbdchd/neoformat'
 " Surround
 Plugin 'tpope/vim-surround'
+" Use local node_modules bin
+Plugin 'benjie/local-npm-bin.vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -111,3 +119,5 @@ hi MBEChanged guifg=#CD5907 guibg=fg
 hi MBENormal guifg=#808080 guibg=fg
 
 hi MBEVisibleActive ctermfg=15 ctermbg=239
+
+set guicursor=
