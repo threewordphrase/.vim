@@ -23,12 +23,12 @@ Plugin 'sjl/gundo.vim'
 Plugin 'neomake/neomake'
 " Tomorrow Themes
 Plugin 'chriskempson/vim-tomorrow-theme'
-" Monokai color theme
+" Color themes
 Plugin 'sickill/vim-monokai'
 " Multicursors
 Plugin 'terryma/vim-multiple-cursors'
 " Gutentags for sane ctags management
-Plugin 'ludovicchabant/vim-gutentags'
+" Plugin 'ludovicchabant/vim-gutentags'
 " Deoplete completion engine
 Plugin 'Shougo/deoplete.nvim'
 " Support for easyclip (at least...)
@@ -45,7 +45,7 @@ Plugin 'davidhalter/jedi-vim'
 " JS Support
 Plugin 'pangloss/vim-javascript'
 " Vue support
-Plugin 'posva/vim-vue'
+" Plugin 'posva/vim-vue'
 " JS intel
 Plugin 'ternjs/tern_for_vim'
 " JS deoplete
@@ -58,12 +58,14 @@ Plugin 'sbdchd/neoformat'
 Plugin 'tpope/vim-surround'
 " Use local node_modules bin
 Plugin 'benjie/local-npm-bin.vim'
+" Auto pairing
+Plugin 'jiangmiao/auto-pairs'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
 
-set background=dark
+" set background=dark
 colorscheme monokai
 
 " flesh out ctags (see autoload/tags.vim)
