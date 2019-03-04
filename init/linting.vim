@@ -15,3 +15,5 @@ let g:neomake_error_sign = {
   \ 'texthl': 'ErrorMsg',
   \ }
 
+" disable virtualtext errors
+let g:neomake_virtualtext_current_error=0
