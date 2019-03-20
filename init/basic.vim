@@ -10,6 +10,8 @@ vmap <tab> >gv
 vmap <s-tab> <gv
 
 
+set clipboard=unnamed,unnamedplus " copy to system clipboard too
+
 set notimeout                   " No command timeout
 set showcmd                     " Show typed command prefixes while waiting for operator
 set mouse=a                     " Use mouse support in XTerm/iTerm.
