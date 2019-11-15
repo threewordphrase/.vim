@@ -4,6 +4,7 @@
 "
 "
 
+set noswapfile     "no swap files
 
 " indent/unindent visual mode selection with tab/shift+tab
 vmap <tab> >gv
