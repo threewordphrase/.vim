@@ -60,6 +60,9 @@ Plugin 'tpope/vim-surround'
 Plugin 'benjie/local-npm-bin.vim'
 " Auto pairing
 Plugin 'jiangmiao/auto-pairs'
+" .tsx highlighting and syntax
+Plugin 'leafgarland/typescript-vim'
+Plugin 'peitalin/vim-jsx-typescript'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
