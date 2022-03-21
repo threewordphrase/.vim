@@ -23,7 +23,7 @@ set autoindent
 set smarttab                    " Use shiftwidth to tab at line beginning
 set shiftwidth=2                " Width of autoindent
 set number                      " Line numbers
-set relativenumber              " + relative Line numbers = hybrid line numbers
+" set relativenumber              " + relative Line numbers = hybrid line numbers
 syntax on                       " Syntax, damnit
 set nowrap                      " No wrapping
 set backspace=indent,eol,start " Let backspace work over anything.
