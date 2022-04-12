@@ -4,7 +4,7 @@
 "
 "
 "
-map <leader>gb   :Gblame<CR>
+map <leader>gb   :Git blame<CR>
 " open line on github
 map <leader>gh   :GBrowse<CR>
 " Automatically delete Fugitive buffers that are no longer being used. http://vimcasts.org/episodes/fugitive-vim-browsing-the-git-object-database/
