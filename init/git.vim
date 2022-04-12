@@ -13,3 +13,5 @@ autocmd BufReadPost fugitive://* set bufhidden=delete
 autocmd BufReadPost .git/index set nolist
 
 map <leader>gg   :GitGutterToggle<CR>
+
+let g:fugitive_gitlab_domains = {'ssh://code.earth.planet.com': 'https://hello.planet.com/code'}
