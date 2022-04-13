@@ -12,7 +12,8 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'tpope/vim-fugitive'
 " moar git
 Plugin 'tpope/vim-rhubarb'
-Plugin 'tpope/fugitive-gitlab.vim'
+" Plugin 'tpope/fugitive-gitlab.vim'
+Plugin 'shumphrey/fugitive-gitlab.vim'
 " FZF, fuzzy finder
 Plugin 'junegunn/fzf'
 Plugin 'junegunn/fzf.vim'
