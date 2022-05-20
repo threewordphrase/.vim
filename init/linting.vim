@@ -16,5 +16,9 @@ let g:neomake_error_sign = {
   \ 'texthl': 'ErrorMsg',
   \ }
 
+let g:neomake_javascript_eslint_maker = {
+        \ 'exec': $PWD . '/node_modules/.bin/eslint'
+        \ }
+
 " disable virtualtext errors
 let g:neomake_virtualtext_current_error=0
