@@ -28,7 +28,7 @@ Plugin 'chriskempson/vim-tomorrow-theme'
 " Color themes
 Plugin 'sickill/vim-monokai'
 " Multicursors
-Plugin 'terryma/vim-multiple-cursors'
+Plugin 'mg979/vim-visual-multi'
 " Gutentags for sane ctags management
 " Plugin 'ludovicchabant/vim-gutentags'
 " Deoplete completion engine
