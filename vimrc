@@ -117,7 +117,7 @@ end
 
 
 hi StatusLine   ctermfg=232  guifg=#080808 ctermbg=252 guibg=#d0d0d0 cterm=bold gui=bold
-" hi StatusLineNC ctermfg=177 guifg=#b2b2b2 ctermbg=237 guibg=#3a3a3a cterm=none gui=none
+hi StatusLineNC ctermfg=177 guifg=#b2b2b2 ctermbg=237 guibg=#3a3a3a cterm=none gui=none
 
 hi MBEVisibleChangedActive guifg=#FFFFFF guibg=#FFFFFF
 hi MBEVisibleChanged guifg=#F1266F guibg=fg
