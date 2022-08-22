@@ -4,11 +4,7 @@ sudo apt-get install -y software-properties-common
 sudo add-apt-repository -y ppa:neovim-ppa/stable
 sudo apt-get update
 
-sudo apt-get install -y python-dev python-pip python3-dev python3-pip
-
-sudo apt-get install -y neovim git silversearcher-ag exuberant-ctags curl
-
-git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf && ~/.fzf/install --bin
+sudo apt-get install -y neovim silversearcher-ag curl
 
 mkdir -p ~/.config/nvim
 
@@ -27,3 +23,11 @@ pip install jedi
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
 nvim -c :silent\! +PluginInstall +UpdateRemotePlugins +qall
+
+echo "*****************************************************************"
+echo "*"
+echo "*"
+echo "*  Install tern: cd ~/.vim/bunde/tern_for_vim && npm install tern"
+echo "*"
+echo "*"
+echo "*****************************************************************"
