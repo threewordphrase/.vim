@@ -4,11 +4,15 @@
 "
 "
 
-set noswapfile     "no swap files
+set noswapfile     "fuck swap files
 
 " indent/unindent visual mode selection with tab/shift+tab
 vmap <tab> >gv
 vmap <s-tab> <gv
+
+" Normal mode navigate buffers with <tab> / <shift-tab>
+nmap <tab> :bn<CR>
+nmap <s-tab> :bp<CR>
 
 
 set clipboard=unnamed,unnamedplus " copy to system clipboard too
@@ -44,7 +48,6 @@ set smartcase                   " Smart case-sensitivity when searching
 
 set autoread                    " No prompt for file changes outside Vim
 
-set swapfile                    " Keep swapfiles
 set directory=~/.vim-tmp,~/tmp,/var/tmp,/tmp
 set backupdir=~/.vim-tmp,~/tmp,/var/tmp,/tmp
 

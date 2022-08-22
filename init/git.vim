@@ -1,8 +1,5 @@
-
 " 
 " Git (Figutive)
-"
-"
 "
 map <leader>gb   :Git blame<CR>
 " open line on github

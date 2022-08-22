@@ -20,7 +20,7 @@ Plugin 'junegunn/fzf.vim'
 " NERDCommenter
 Plugin 'scrooloose/nerdcommenter'
 " Navigate undo tree
-Plugin 'sjl/gundo.vim'
+Plugin 'simnalamburt/vim-mundo'
 " Neomake for async linter/make runner
 Plugin 'neomake/neomake'
 " Tomorrow Themes
@@ -29,25 +29,19 @@ Plugin 'chriskempson/vim-tomorrow-theme'
 Plugin 'sickill/vim-monokai'
 " Multicursors
 Plugin 'mg979/vim-visual-multi'
-" Gutentags for sane ctags management
-" Plugin 'ludovicchabant/vim-gutentags'
 " Deoplete completion engine
 Plugin 'Shougo/deoplete.nvim'
 " Support for easyclip (at least...)
 Plugin 'tpope/vim-repeat'
 " Sane cut/delete behavior >:|
 Plugin 'svermeulen/vim-easyclip'
-" Unite! Unite! Okay!
-Plugin 'Shougo/denite.nvim'
 " Ugh where the F am I
 Plugin 'fholgado/minibufexpl.vim'
-" Python deoplete
+" Python intel
 Plugin 'zchee/deoplete-jedi'
 Plugin 'davidhalter/jedi-vim'
 " JS Support
 Plugin 'pangloss/vim-javascript'
-" Vue support
-" Plugin 'posva/vim-vue'
 " JS intel
 Plugin 'ternjs/tern_for_vim'
 " JS deoplete
@@ -65,6 +59,8 @@ Plugin 'jiangmiao/auto-pairs'
 " .tsx highlighting and syntax
 Plugin 'leafgarland/typescript-vim'
 Plugin 'peitalin/vim-jsx-typescript'
+" Kill buffers, keep split
+Plugin 'mhinz/vim-sayonara'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -92,7 +88,12 @@ nmap <leader>sb<left>   :leftabove  vnew<CR>
 nmap <leader>sb<right>  :rightbelow vnew<CR>
 nmap <leader>sb<up>     :leftabove  new<CR>
 nmap <leader>sb<down>   :rightbelow new<CR>
+"
+" Mundo settings
+let g:mundo_right = 1
+nmap <leader>u :MundoToggle<CR>
 
+" Load local config if present
 if filereadable($HOME . "/.vimrc.local")
   source ~/.vimrc.local
 endif

@@ -1,5 +1,5 @@
  
-" FZF Fuzzy Finder
+" FZF (fuzzyfinder) and Ag (silver searcher)
 "
 " Find a file
 map <leader>ff :Files<CR>

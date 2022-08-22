@@ -3,3 +3,5 @@ init.vim
 bundle/*
 !bundle/.gitkeep
 .netrwhist
+undo
+.DS_Store
