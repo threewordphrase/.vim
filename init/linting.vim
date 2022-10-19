@@ -22,3 +22,5 @@ let g:neomake_javascript_eslint_maker = {
 
 " disable virtualtext errors
 let g:neomake_virtualtext_current_error=0
+
+let g:neomake_tempfile_dir = '/tmp/'
