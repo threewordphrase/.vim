@@ -41,7 +41,7 @@ Plugin 'fholgado/minibufexpl.vim'
 Plugin 'zchee/deoplete-jedi'
 Plugin 'davidhalter/jedi-vim'
 " JS Support
-Plugin 'pangloss/vim-javascript'
+" Plugin 'pangloss/vim-javascript'
 " JS intel
 Plugin 'ternjs/tern_for_vim'
 " JS deoplete
@@ -61,6 +61,8 @@ Plugin 'leafgarland/typescript-vim'
 Plugin 'peitalin/vim-jsx-typescript'
 " Kill buffers, keep split
 Plugin 'mhinz/vim-sayonara'
+" Universal-ish syntax highlighting
+Plugin 'sheerun/vim-polyglot'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
