@@ -27,7 +27,7 @@ nvim -c :silent\! +PluginInstall +UpdateRemotePlugins +qall
 echo "*****************************************************************"
 echo "*"
 echo "*"
-echo "*  Install tern: cd ~/.vim/bunde/tern_for_vim && npm install tern"
+echo "*  Install tern: cd ~/.vim/bundle/tern_for_vim && npm install tern"
 echo "*"
 echo "*"
 echo "*****************************************************************"
