@@ -131,3 +131,5 @@ hi MBENormal guifg=#808080 guibg=fg
 hi MBEVisibleActive ctermfg=15 ctermbg=239
 
 set guicursor=
+
+set backupdir=/tmp
